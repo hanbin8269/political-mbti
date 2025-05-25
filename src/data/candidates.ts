@@ -42,8 +42,27 @@ export const candidates: Candidate[] = [
       society: { minority_rights: 3, gender_equality: 3, immigration: 3 },
       environment: { green_new_deal: 3, nuclear: 4, carbon_tax: 3 }
     }
+  },
+  {
+    id: 'D',
+    name: '권영국',
+    party: '민주노동당',
+    color: 'text-green-600',
+    positions: {
+      economy: { tax: 5, regulation: 4, welfare_budget: 5 },
+      welfare: { universal_basic: 4, healthcare: 5, housing: 5 },
+      education: { free_education: 5, private_school: 2, evaluation: 2 },
+      security: { defense_budget: 2, diplomacy: 4, peace: 5 },
+      society: { minority_rights: 5, gender_equality: 5, immigration: 4 },
+      environment: { green_new_deal: 5, nuclear: 1, carbon_tax: 5 }
+    }
   }
 ];
 
-// 후보별 주요 공약
-export const keyPolicies: { [key: string]: string[] } = {};
+// 후보별 주요 공약 (실제 2025 대선 공약 기반)
+export const keyPolicies: { [key: string]: string[] } = {
+  'A': ['AI 기본사회', '세종 행정수도', '기본소득 확대', '그린뉴딜 2.0'],
+  'B': ['AI 3강 도약', '원자력 강국', '규제완화·감세', '강한 안보'],
+  'C': ['규제기준국가제', '정부조직 개편', '연금 개혁', '세대교체'],
+  'D': ['차별금지법 제정', '성평등부 신설', '노동자 권익 강화', '부자 증세']
+};

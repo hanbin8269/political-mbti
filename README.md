@@ -4,7 +4,8 @@
 
 ## 🎯 주요 기능
 
-- **실제 공약 기반**: 중앙선관위 제출 실제 공약 데이터 활용 (https://policy.nec.go.kr)
+- **실제 공약 기반**: 중앙선관위 등록 실제 공약 데이터 활용 (https://policy.nec.go.kr)
+- **4명 후보 비교**: 이재명, 김문수, 이준석, 권영국 후보
 - **정책 우선순위 설정**: 6개 분야별 중요도 설정
 - **12개 핵심 질문**: 경제, 복지, 교육, 외교안보, 사회, 환경 분야
 - **정확한 매칭**: 가중치가 적용된 정교한 매칭 알고리즘
@@ -36,7 +37,7 @@ src/
 
 ```bash
 # 저장소 클론
-git clone https://github.com/hanbin8269/political-mbti.git
+git clone https://github.com/your-username/political-mbti.git
 cd political-mbti
 
 # 의존성 설치
@@ -59,9 +60,10 @@ npm run start
 ## 📊 데이터 구조
 
 ### 후보자 데이터 (`src/data/candidates.ts`)
-- 2025년 대선 주요 후보 3명 (이재명, 김문수, 이준석)
+- 2025년 대선 등록 후보 4명 (이재명, 김문수, 이준석, 권영국)
+- 실제 중앙선관위 등록 공약 기반 데이터
 - 6개 정책 분야별 세부 입장 (1-5점 척도)
-- 실제 공약 기반 주요 정책 키워드
+- 실제 발표된 주요 공약 키워드
 
 ### 질문 데이터 (`src/data/questions.ts`)
 - 12개 핵심 정책 질문
