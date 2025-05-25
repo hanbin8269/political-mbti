@@ -53,7 +53,7 @@ const PoliticalMBTI = () => {
               <div className="space-y-3 text-gray-600">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-sm">✓</div>
-                  <span>이재명 · 김문수 · 이준석 후보</span>
+                  <span>이재명 · 김문수 · 이준석 · 권영국 후보</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold text-sm">✓</div>
